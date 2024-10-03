@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+env/
+
+# Python cache files
+*.pyc
+__pycache__/
+home/__pycache__/
+home/management/__pycache__/
+home/migrations/__pycache__/
+
+# Django database
+db.sqlite3
+
+# Static files
+/static/
+media/
+
+# Kafka logs (if you store them in your project)
+home/kafka_logs/
+*.log
+
+# Django specific
+*.log
+*.pot
+*.py[cod]
+__pycache__/
+local_settings.py
+
+# Environment variables
+.env
