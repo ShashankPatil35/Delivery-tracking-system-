@@ -4,9 +4,9 @@ from django.http import JsonResponse
 
 # from django.urls import path
 
-# Create your views here.
+
 def index(request):
-    return render(request,'index.html') 
+    return render(request, 'index.html')
 
 def get_data(request):
     latest_data = LocationUpdate.objects.latest('timestamp')
